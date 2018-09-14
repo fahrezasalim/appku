@@ -30,7 +30,7 @@
         <tr>
 					<th>Book ID</th>
 					<th>Book ISBN</th>
-					<th>Book Title</th>
+					<th>Book judul</th>
 					<th>Book Author</th>
 					<th>Book Category</th>
 
