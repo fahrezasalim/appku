@@ -44,8 +44,8 @@
                  <td><?php echo $row->email_user;?></td>
                  <td><?php echo $row->username;?></td>
                  <td>
-                <button class="btn btn-primary btn" onclick="edit_user(<?php echo $row->id_user;?>)"><i class="glyphicon glyphicon-pencil"></i></button>
-                <button class="btn btn-danger btn" onclick="delete_user(<?php echo $row->id_user;?>)"><i class="glyphicon glyphicon-remove"></i></button>
+                <button class="btn btn-sm btn-primary" onclick="edit_user(<?php echo $row->id_user;?>)"><i class="glyphicon glyphicon-pencil"> Edit</i></button>
+                <button class="btn btn-sm btn-danger" onclick="delete_user(<?php echo $row->id_user;?>)"><i class="glyphicon glyphicon-trash"> Hapus</i></button>
                 </td>
               </tr>
              <?php }?>

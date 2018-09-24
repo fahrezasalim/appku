@@ -39,8 +39,8 @@
                <tr>
                  <td><?php echo $row->id_kategori; ?></td>
                  <td><?php echo $row->nama_kategori;?></td>                <td>
-                <button class="btn btn-primary btn" onclick="edit_kategori(<?php echo $row->id_kategori;?>)"><i class="glyphicon glyphicon-pencil"></i></button>
-                <button class="btn btn-danger btn" onclick="delete_kategori(<?php echo $row->id_kategori;?>)"><i class="glyphicon glyphicon-remove"></i></button>
+                <button class="btn btn-sm btn-primary" onclick="edit_kategori(<?php echo $row->id_kategori;?>)"><i class="glyphicon glyphicon-pencil"> Edit</i></button>
+                <button class="btn btn-sm btn-danger" onclick="delete_kategori(<?php echo $row->id_kategori;?>)"><i class="glyphicon glyphicon-trash"> Hapus</i></button>
                 </td>
               </tr>
              <?php }?>

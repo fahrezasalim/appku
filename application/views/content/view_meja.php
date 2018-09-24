@@ -41,8 +41,8 @@
                  <td><?php echo $row->id_meja; ?></td>
                  <td><?php echo $row->nama_meja;?></td>
                  <td><?php echo $row->status;?></td>                 <td>
-                <button class="btn btn-primary btn" onclick="edit_meja(<?php echo $row->id_meja;?>)"><i class="glyphicon glyphicon-pencil"></i></button>
-                <button class="btn btn-danger btn" onclick="delete_meja(<?php echo $row->id_meja;?>)"><i class="glyphicon glyphicon-remove"></i></button>
+                <button class="btn btn-sm btn-primary" onclick="edit_meja(<?php echo $row->id_meja;?>)"><i class="glyphicon glyphicon-pencil"></i> Edit</button>
+                <button class="btn btn-sm btn-danger" title="Hapus" onclick="delete_meja(<?php echo $row->id_meja;?>)"><i class="glyphicon glyphicon-trash"> Hapus</i></button>
                 </td>
               </tr>
              <?php }?>
